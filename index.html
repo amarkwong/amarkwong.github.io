@@ -4,16 +4,121 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 </head>
-<body class="personal card">
+<body class="material-template">
     <!--loading animation-->
     <div class="loading__animation"></div>
-    <!--/loading animation-->
-    <iv id="page" class="page">
-        <!--header-->
-        <div id="header" class="header">
-        <!--/header-->
+        <div class="preloader-spinner"></div>
+    <!--loading animation-->
+    <div id="page" class="page">
+        <!--/Header-->
+        <div id="site_header" class="header mobile-menu-hide">
+            <div class="header-content">
+                <div class="site-title-block mobile-hidden">
+                    <div class="site-title">
+                        "Feifan "
+                        <span>Wang</span>
+                    </div>
+                </div>
+                <!-- Navigation -->
+                <div class="site-nav">
+                    <ul id="nav" class="site-main-menu">
+                        <li class="active">
+                            <a class="pt-trigger" bref="#home" data-animation="62">
+                                "Home"
+                                ::after
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pt-trigger" bref="#resume" data-animation="62">
+                                "Resume"
+                                ::after
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pt-trigger" bref="#services" data-animation="62">
+                                "Services"
+                                ::after
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pt-trigger" bref="#contact" data-animation="62">
+                                "Contact"
+                                ::after
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Navigation -->
+            </div>
+        <!--/Header-->
+        <!-- Mobile Header -->
+        <div class="mobile-header mobile-visable">
+            <div class="mobile-site-title">Feifan Wang</div>
+            <a class="menu-toggle mobile-visable">
+                <i class="fa fa-bars">
+                    ::before
+                </i>
+            </a>
+        </div>
+        <!-- Mobile Header -->
+        <!-- Main Content -->
+        <div id="main" class="site-main">
+            <div class="pt-wrapper">
+                <div class="subpages" data-id="home">
+                    <div class="page-header">
+                        <div class="row">
+                            ::before
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                    <div class="photo">
+                                        <img src="images/photo.png" alt="your photo">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-8 col-lg-8">
+                                <div class="title-block">
+                                    <h1>Feifan Wang</h1>
+                                    <div class="owl-carousel text-rotation owl-loaded owl-drag">
+                                    </div>
+                                </div>
+                                <div class="social-links">
+                                    <a href="#">
+                                        <i class="fa fa-twitter">
+                                            ::before
+                                        </i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-fackbook">
+                                            ::before
+                                        </i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-instagram">
+                                            ::before
+                                        </i>
+                                    </a>
+                                </div>
+                                ::after
+                                <h1>John Doe</h1>
+                                <div class="occupation">Web Designer</div>
+                                <div class="social links">
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                                </div>
+                            ::after
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="subpages">
-            <section class="pt-page pt-page-current" data-id="home">
                 <div class="page-header">
                     <div class="row">
                         <div class="col-sm-4 col-md-4 col-lg-4">
