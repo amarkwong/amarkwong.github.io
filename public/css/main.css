@@ -1,5 +1,5 @@
 span{
-    color:#049EAB;
+    color:#20c997;
 }
 
 
@@ -19,7 +19,7 @@ span{
 }
 
 .headname h3 span{
-    color:#049EAB;
+    color:#20c997;
 }
 
 #collapsibleNavbar{
@@ -36,7 +36,7 @@ span{
 
 .card .card-header{
     position:relative;
-    background-color:#049EAB;
+    background-color:#20c997;
     border-radius: 15px 15px 0px 0px;
     padding:50px;
 }
@@ -83,7 +83,7 @@ span{
 }
 
 .aboutme .me-title h3 span{
-    color:#049EAB;
+    color:#20c997;
 }
 
 .info-list {
@@ -149,7 +149,7 @@ body > footer {
     padding:10px;
     margin: 0px 0px 30px 0px;
     border: 1px solid lightgray;
-    border-left: 2px solid #049EAB;
+    border-left: 2px solid #20c997;
     box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
 }
 
@@ -163,7 +163,7 @@ body > footer {
     height: 12px;
     top: 80px;
     left: -38px;
-    border: 2px solid #049EAB;
+    border: 2px solid #20c997;
     z-index: 2;
 }
 
@@ -171,7 +171,7 @@ body > footer {
     content: '';
     display: inline-block;
     position: absolute;
-    background-color: #049EAB;
+    background-color: #20c997;
     border-radius: 10px;
     width: 36px;
     height: 2px;
@@ -182,7 +182,7 @@ body > footer {
 
 
 .card .card-content .edu-content .content-box-in .content-box-time{
-    color:#049EAB;
+    color:#20c997;
 }
 
 .card .card-content .edu-content .content-box-in .content-box-time .co{
@@ -285,7 +285,7 @@ body > footer {
 
 .card .card-content .blog-card .blog-media .blog-date span{
     display: block;
-    color: #049EAB;
+    color: #20c997;
     line-height: 1;
 }
 
